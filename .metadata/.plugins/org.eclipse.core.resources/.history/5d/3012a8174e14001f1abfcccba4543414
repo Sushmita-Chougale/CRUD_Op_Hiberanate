@@ -1,0 +1,92 @@
+<%@page import="java.util.List"%>
+<%@page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@page import="com.login.dao.EmpDao"%>
+
+    pageEncoding="ISO-8859-1"%>
+<%@page import="com.login.dao.EmpDao" %>
+<%@page import="com.login.hibernate.Employee" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/LoginPage/js/view.js"></script>
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 300px;
+            height: 35px;
+        }
+        
+       .table{
+       margin-bottom:400px;}
+       .mb-4{
+       margin-right:30px;}
+    </style>
+</head>
+<body>
+    <div id="input-container" class="mb-4">
+        <form id="employee-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="role">Role:</label>
+                <input type="text" class="form-control" id="role" name="role">
+            </div>
+            <div class="form-group">
+                <label for="salary">Salary:</label>
+                <input type="text" class="form-control" id="salary" name="salary">
+            </div>
+            <div class="form-group">
+                <label for="number">Number:</label>
+                <input type="text" class="form-control" id="number" name="number">
+            </div>
+            <button type="button" class="btn btn-success btn-sm" onclick="addEmp();">Add Employee</button>
+        </form>
+</div>
+		<% Employee dao = new Employee();
+   List<Employee> empList= dao.getAllEmpDetails();
+   %>
+        <table class="table table-striped table-bordered mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Salary</th>
+                    <th>Number</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="employee-table-body">
+                <!-- Dynamic content will be added here -->
+            </tbody>
+        </table>
+   
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>

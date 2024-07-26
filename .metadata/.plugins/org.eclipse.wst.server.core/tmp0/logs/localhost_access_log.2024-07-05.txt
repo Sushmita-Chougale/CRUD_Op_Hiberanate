@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Jul/2024:16:02:38 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:02:38 +0530] "GET /LoginPage/ HTTP/1.1" 200 4238
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:02:39 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:02:44 +0530] "GET /LoginPage/jsp/employeeDetails.jsp HTTP/1.1" 200 10700
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:08 +0530] "GET /LoginPage/jsp/employeeDetails.jsp HTTP/1.1" 200 10700
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:24 +0530] "GET /LoginPage/jsp/employeeDetails.jsp HTTP/1.1" 200 10700
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:28 +0530] "GET /LoginPage/jsp/empList.jsp HTTP/1.1" 200 9230
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:31 +0530] "GET /LoginPage/jsp/editEmp.jsp HTTP/1.1" 200 9600
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:36 +0530] "GET /LoginPage/jsp/updateEmp.jsp HTTP/1.1" 404 1048
+0:0:0:0:0:0:0:1 - - [05/Jul/2024:16:14:41 +0530] "GET /LoginPage/jsp/deletEmp.jsp HTTP/1.1" 404 1046

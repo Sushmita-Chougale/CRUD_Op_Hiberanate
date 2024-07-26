@@ -1,0 +1,70 @@
+package com.login.helper;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+
+import com.login.dao.EmpDao;
+import com.login.dao.UserDao;
+import com.login.hibernate.Employee;
+import com.login.utility.HibernateUtility;
+
+
+
+
+public class EmpHelper {
+	public void saveUser(HttpServletRequest req, HttpServletResponse res) {
+        String name = req.getParameter("name");
+        
+        String email = req.getParameter("email");
+        String designation = req.getParameter("designation");
+        String salaryString = req.getParameter("salary");
+        double salary = Double.parseDouble(salaryString);
+        String number = req.getParameter("number");
+
+        Employee emp = new Employee();
+        emp.setName(name);
+        emp.setEmail(email);
+        emp.setDesignation(designation);
+        emp.setSalary(salary);
+        emp.setNumber(number);
+        
+        System.out.println("Add Helper class");
+        EmpDao empDao = new EmpDao();
+        empDao.saveEmp(emp);
+    }
+	public boolean authenticateUser(HttpServletRequest req, HttpServletResponse res) 
+	  { 
+		  String username = req.getParameter("username"); 
+		  String password =req.getParameter("password");
+	  
+	  UserDao userDao = new UserDao(); 
+	  return userDao.authenticateUser(username, password);
+	  
+	   
+
+}
+	public void updateEmp(HttpServletRequest req, HttpServletResponse res) {
+	    //long id=req.getParameter("id");
+		long id = Long.parseLong(req.getParameter("id"));
+		String name = req.getParameter("name");
+        String email = req.getParameter("email");
+        String designation = req.getParameter("designation");
+        String salaryString = req.getParameter("salary");
+        double salary = Double.parseDouble(salaryString);
+        String number = req.getParameter("number");
+
+        EmpDao pd = new EmpDao();
+	    pd.updateEmp(id,name,email,designation,salary,number);
+	}
+	public void deleteEmp(HttpServletRequest req, HttpServletResponse res) 
+	 {
+		long id = Integer.parseInt(req.getParameter("id"));
+		EmpDao pd= new EmpDao();
+		pd.deleteEmp(id); 
+}
+}

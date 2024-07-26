@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_65">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/activation.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-antlr.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-bcel.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-bsf.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-log4j.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-oro.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-regexp.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-resolver.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-apache-xalan2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-commons-net.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-jai.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-javamail.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-jdepend.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-jmf.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-jsch.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-junit.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-junit4.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-netrexx.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-swing.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ant-testutil.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/apache-velocity-velocity-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/asm.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/avalon-framework-4.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/axis-ant.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barbecue-1.5-beta1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-fop-ext.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-fop-ext-0.20.5.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-fop-ext-0.20.5-complete.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-fop-ext-complete.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-light.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/barcode4j-xgc.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/batik-all-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/batik-ext-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/c3p0-0.9.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/cglib-2.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons.collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/ehcache-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/groovy-all-2.1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/gson-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/gson-2.2.2.jar.zip"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate.jar.zip"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate2 - Copy.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate-tools.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/hibernate-tools-2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/itext-4.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/itextpdf-5.3.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/itextpdf-5.4.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jasperreports-4.7.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/java-json.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/javax.mail-1.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/javax.mail-api-1.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/javax.transaction.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jcommon-1.0.16.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jcommon-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jcommon-1.0-sources.jar.zip"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jcommon-xml-1.0.23.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jdom.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jdom-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jdom-1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jdom-2.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/jfreechart-1.0.13.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/mail.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/middlegen.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/msbase.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/mssqlserver.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/msutil.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/mysql-connector-java-5.1.11-bin.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/quartz-2.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/quartz-jobs-2.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/serializer-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/servlet-2.2.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/slf4j-jdk14-1.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/slf4j-log4j12-1.5.6.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/xalan-2.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/Software/Embel Jars/embel jars/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

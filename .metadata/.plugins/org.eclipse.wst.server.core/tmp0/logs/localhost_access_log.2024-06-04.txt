@@ -1,0 +1,7 @@
+127.0.0.1 - - [04/Jun/2024:10:55:25 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:10:55:26 +0530] "GET /LoginPage/ HTTP/1.1" 200 4238
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:10:55:26 +0530] "GET /LoginPage/js/view.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:10:55:26 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:11:00:06 +0530] "POST /LoginPage/jsp/utility/controller.jsp HTTP/1.1" 200 32
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:11:00:35 +0530] "GET /LoginPage/jsp/empList.jsp HTTP/1.1" 200 9230
+0:0:0:0:0:0:0:1 - - [04/Jun/2024:11:00:47 +0530] "GET /LoginPage/jsp/employeeDetails.jsp HTTP/1.1" 200 10700
